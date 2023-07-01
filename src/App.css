@@ -1,0 +1,148 @@
+.group{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  
+}
+.cardS{
+  display: flex;
+  flex-direction: column;
+  
+
+  
+}
+.cardS img{
+ 
+  width: 600px;
+  height: 600px;
+}
+.name {
+  display: flex;
+  justify-content:space-evenly;
+  background-color: rgb(216, 220, 226);
+  margin-top: 20px;
+  font-size: 40px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+.homeimg h1{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.App{
+  
+  height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    
+}  
+  
+
+.name input{
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+
+.text{
+  text-align: center;
+  color: rgb(50, 94, 148);
+  font-size: 1.5rem;
+  font-family: cursive;
+  text-shadow: 1px 1px 1px bisque, 2px 2px 1px rgb(45, 137, 155);
+}
+
+
+.imgss{
+  height: 120px;
+  width: 200px;
+  margin-left: 20px;
+
+  
+
+}
+.tees{
+margin-top:100px ;
+color: rgb(86, 73, 185);
+margin-left: 100px;
+font-family: Times, "Times New Roman", Georgia, serif;
+
+}
+.toos{
+  font-family: Times, "Times New Roman", Georgia, serif;
+
+color: rgb(207, 130, 14);
+margin-left: 90px;
+}
+.tpp{
+  margin-left: 70px;
+  color: white;
+  font-family : Verdana, Geneva, sans-serif;
+}
+.homeimg{
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  background-image: url('/src/Apple.jpg.og.jpg');
+  height: 125vh;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.btn{
+  margin-top: 50px;
+ margin-left: 190px;
+ border-radius: 4px;
+  background-color: rgb(207, 130, 14);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 160px;
+  transition: all 0.5s;
+
+  
+}
+.allskins{
+ display: flex;
+ width: fit-content;
+  gap:20px;
+  flex-direction: column;
+
+}
+.version{
+  text-align: center;
+  padding-top: 10px;
+  gap: 100px;
+  border-radius: 20px;
+  color:rgb(41, 116, 191);
+  font-size: 2rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+  
+}
+.skinimg{
+  text-align: center;
+  color:rgb(41, 116, 191);
+  font-size: 2rem;
+  font-family: cursive;
+  
+}
+.allskins img{
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+
+}
